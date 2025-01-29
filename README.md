@@ -14,14 +14,16 @@ The project consists of the following tables:
 
 ## Features
 
-✔️ **Normalized Database Design** for efficiency.\
-✔️ **Foreign Keys & Relationships** to maintain data integrity.\
-✔️ **Sample Data Included** for easy setup and testing.\
-✔️ **Predefined SQL Queries** for quick insights.
+**Normalized Database Design** for efficiency.\
+**Foreign Keys & Relationships** to maintain data integrity.\
+**Sample Data Included** for easy setup and testing.\
+**Predefined SQL Queries** for quick insights.
 
 ## Installation & Setup
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/employee-management-sql.git
+   git clone https://github.com/jainanjaly/Employee_Management_System-SQL-.git
    ```
+2. Open your SQL client and execute employee_management.sql.
+3. Run queries to interact with the database.
