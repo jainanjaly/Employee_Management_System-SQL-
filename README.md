@@ -25,5 +25,15 @@ The project consists of the following tables:
    ```sh
    git clone https://github.com/jainanjaly/Employee_Management_System-SQL-.git
    ```
-2. Open your SQL client and execute employee_management.sql.
+2. Open your SQL client and execute Employee_Management.sql.
 3. Run queries to interact with the database.
+
+## Example Query
+
+Retrieve employee details along with their department:
+```sql
+SELECT E.EmployeeID, E.FirstName, E.LastName, E.Email, D.DepartmentName, E.Salary
+FROM Employees E
+JOIN Departments D ON E.DepartmentID = D.DepartmentID;```
+
+
